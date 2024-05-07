@@ -1,0 +1,16 @@
+the code has commited from lochal hub into vairent path 
+
+there are coule of example 
+
+// C++ program to demonstrate the misplaced semicolon
+#include <iostream>
+using namespace std;
+class teacher; // wrong semicolon placement
+{
+private:
+string num;
+public:
+void setNum(int num1) { num = num1; }
+string getNum() { return num }
+};
+int main() { return 0; }
